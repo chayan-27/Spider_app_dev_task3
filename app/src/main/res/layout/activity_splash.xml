@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@drawable/tic">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icct"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:id="@+id/tic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="TIC"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+       android:layout_marginTop="250dp"/>
+    <TextView
+        android:id="@+id/tac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_alignTop="@id/tic"
+        android:text="TAC"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00ff00"
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"/>
+    <TextView
+        android:id="@+id/toe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_alignTop="@id/tac"
+        android:text="TOE"
+        android:layout_centerHorizontal="true"
+        android:textColor="#e3ff00"
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"/>
+
+</RelativeLayout>
